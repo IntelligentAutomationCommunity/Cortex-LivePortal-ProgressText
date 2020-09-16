@@ -7,7 +7,7 @@ https://vimeo.com/458599158/67a838ef39
 
 # Installation Instructions
 In the video you find a reference to the Material Design styling for Cortex LivePortal.
-You would require the material-design-cortex.css file part of this project to be copied to the Cortex application server.
+You would require the material-dashboard-cortex.css file part of this project to be copied to the Cortex application server.
 The video shows you how to do that.
 
 :thumbsup: Success! :wink:
