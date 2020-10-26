@@ -14327,6 +14327,40 @@ fieldset[disabled] .form-group .form-control {
   color: #fff;
 }
 
+/* MTN Cortex colours start */
+.nav-pills.nav-pills-crtxindigo .nav-item .nav-link.active,
+.nav-pills.nav-pills-crtxindigo .nav-item .nav-link.active:focus,
+.nav-pills.nav-pills-crtxindigo .nav-item .nav-link.active:hover {
+  background-color: #262056;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(38, 32, 86, 0.4);
+  color: #fff;
+}
+
+.nav-pills.nav-pills-crtxlblue .nav-item .nav-link.active,
+.nav-pills.nav-pills-crtxlblue .nav-item .nav-link.active:focus,
+.nav-pills.nav-pills-crtxlblue .nav-item .nav-link.active:hover {
+  background-color: #398fcd;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 188, 212, 0.4);
+  color: #fff;
+}
+
+.nav-pills.nav-pills-crtxgreen .nav-item .nav-link.active,
+.nav-pills.nav-pills-crtxgreen .nav-item .nav-link.active:focus,
+.nav-pills.nav-pills-crtxgreen .nav-item .nav-link.active:hover {
+  background-color: #a0c326;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4);
+  color: #fff;
+}
+
+.nav-pills.nav-pills-crtxorange .nav-item .nav-link.active,
+.nav-pills.nav-pills-crtxorange .nav-item .nav-link.active:focus,
+.nav-pills.nav-pills-crtxorange .nav-item .nav-link.active:hover {
+  background-color: #ff6600;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(255, 152, 0, 0.4);
+  color: #fff;
+}
+/* MTN Cortex colours end */
+
 .nav-pills.nav-pills-icons .nav-item .nav-link {
   border-radius: 4px;
 }
@@ -15270,6 +15304,11 @@ label {
 .alert.alert-default {
   background-color: white;
   color: #555555;
+}
+
+.alert.alert-transparent {
+  background-color: transparent;
+  color: #ffffff;
 }
 
 .alert a,
@@ -16613,6 +16652,7 @@ thead.thead-inverse th,
 .card .card-body {
   padding: 0.9375rem 20px;
   position: relative;
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }
 
 .card .card-body .form-group {
@@ -17252,6 +17292,24 @@ thead.thead-inverse th,
 .card-pricing .card-icon.icon-white i {
   color: #fff;
 }
+
+/* MTN Cortex colours begin */
+.card-pricing .card-icon.icon-crtxblue i {
+  color: #398fcd;
+}
+
+.card-pricing .card-icon.icon-crtxgreen i {
+  color: #a0c326;
+}
+
+.card-pricing .card-icon.icon-crtxindigo i {
+  color: #262056;
+}
+
+.card-pricing .card-icon.icon-crtxorange i {
+  color: #ff6600;
+}
+/* MTN Cortex Colours End */
 
 .card-pricing h1 small {
   font-size: 18px;
@@ -18576,11 +18634,11 @@ a .material-icons {
 
 .sidebar {
   position: fixed;
-  top: 0;
+  top: 60px; /* MTN changed from 0 to 60px */
   bottom: 0;
   left: 0;
   z-index: 2;
-  width: 260px;
+  width: 300px; /* MTN changed from 260 to 300px */
   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
@@ -19053,7 +19111,7 @@ a .material-icons {
 .main-panel {
   position: relative;
   float: right;
-  width: calc(100% - 260px);
+  width: calc(100% - 300px); /* MTN Changed 260px to 300px */
   transition: 0.33s, cubic-bezier(0.685, 0.0473, 0.346, 1);
 }
 
